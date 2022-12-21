@@ -1,0 +1,396 @@
+@import url("https://fonts.googleapis.com/css2?family=Corinthia&family=Merriweather+Sans:wght@300&family=Montserrat:wght@200;500&display=swap");
+body {
+  font-family: 'Segoe UI';
+  background-color: #FFE32C;
+  background-image: linear-gradient(60deg, #52ACFF 25%, #FFE32C 100%);
+  height: 100vh;
+  margin: 0;
+}
+
+body header {
+  position: fixed;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 100%;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  z-index: 1;
+}
+
+body header h1 {
+  color: white;
+}
+
+body header .menus .fr1 {
+  text-decoration: none;
+  margin: 1em;
+  padding: 5px;
+  font-weight: 600;
+  -webkit-transition: font-weight 0.5s, border-right 1s;
+  transition: font-weight 0.5s, border-right 1s;
+  border-right: transparent;
+  color: #FFE32C;
+}
+
+body header .menus .fr1:hover {
+  color: #273631;
+  border-right: 6px solid #273631;
+  font-weight: lighter;
+}
+
+body header .menus .fr2 {
+  text-decoration: none;
+  margin: 1em;
+  padding: 5px;
+  font-weight: 600;
+  -webkit-transition: font-weight 0.5s, border-right 1s;
+  transition: font-weight 0.5s, border-right 1s;
+  border-right: transparent;
+  color: white;
+}
+
+body header .menus .fr2:hover {
+  color: #273631;
+  border-right: 6px solid #273631;
+  font-weight: lighter;
+}
+
+body header .menus .others {
+  text-decoration: none;
+  margin: 1em;
+  padding: 5px;
+  font-weight: 600;
+  -webkit-transition: font-weight 0.5s, border-right 1s;
+  transition: font-weight 0.5s, border-right 1s;
+  border-right: transparent;
+  color: white;
+}
+
+body header .menus .others:hover {
+  color: #273631;
+  border-right: 6px solid #273631;
+  font-weight: lighter;
+}
+
+body .slogans {
+  width: 100%;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  color: white;
+  text-align: center;
+}
+
+body .slogans .logo img {
+  opacity: 60%;
+  width: 20em;
+}
+
+body .slogans p {
+  font-size: 20px;
+}
+
+body #tagCrazy {
+  width: 100%;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-top: 1em;
+}
+
+body #tagCrazy .tag {
+  background-color: #273631;
+  color: #b9c3cc;
+  -webkit-box-shadow: 0px -6px 16px 6px gray;
+          box-shadow: 0px -6px 16px 6px gray;
+  margin: 0 0 1em 2em;
+  padding: 1em;
+  width: 20em;
+  height: 30em;
+  border-top: 10px solid #FFE32C;
+  text-align: center;
+}
+
+body #tagCrazy .tag .field {
+  height: 25em;
+}
+
+body #tagCrazy .tag .field picture img {
+  width: 8em;
+}
+
+body #tagCrazy .tag .field .list {
+  text-align: left;
+  border-top: 2px solid #FFE32C;
+}
+
+body #tagCrazy .tag .itsMe {
+  margin-top: 2em;
+  width: 5em;
+  padding: 5px;
+  color: #273631;
+  background-color: #FFE32C;
+  border: transparent;
+  border-right: 5px solid #52ACFF;
+  font-weight: 500;
+  cursor: pointer;
+  -webkit-transition: border-bottom 0.5s, background-color 0.5s, color 0.5s;
+  transition: border-bottom 0.5s, background-color 0.5s, color 0.5s;
+}
+
+body #tagCrazy .tag .itsMe:hover {
+  border-bottom: 6px solid #52ACFF;
+  border-right: none;
+  background-color: transparent;
+  color: #FFE32C;
+}
+
+body .bg {
+  position: relative;
+  z-index: -1;
+  margin-top: -50em;
+  opacity: 50%;
+}
+
+body .bg img {
+  width: 50%;
+  height: 50%;
+}
+
+body #Story {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  height: 25vh;
+  background-color: #FFE32C;
+}
+
+body #Story .text {
+  color: #273631;
+  width: 60em;
+  text-align: start;
+}
+
+body #Story .text aside {
+  width: 40%;
+  padding-left: 0.5rem;
+  margin-left: 0.5rem;
+  float: right;
+  -webkit-box-shadow: inset 5px 0 5px -5px #52ACFF;
+          box-shadow: inset 5px 0 5px -5px #52ACFF;
+  font-style: italic;
+  color: white;
+  font-weight: 400;
+  letter-spacing: 2px;
+}
+
+body #Story .text .first::first-letter {
+  color: white;
+  font-size: xx-large;
+  font-weight: bold;
+}
+
+body .tableCrazy {
+  margin-top: 2em;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+}
+
+body .tableCrazy .detail {
+  width: 30em;
+  color: #273631;
+}
+
+body .tableCrazy .detail h4 {
+  font-weight: bold;
+}
+
+body .tableCrazy .detail p {
+  line-height: 25px;
+}
+
+body .tableCrazy table {
+  border-top: 10px solid #273631;
+}
+
+body .tableCrazy table td {
+  padding: 5px;
+  background: white;
+}
+
+body .tableCrazy table th {
+  padding: 5px;
+  opacity: 80%;
+  background: #52ACFF;
+  color: #273631;
+}
+
+body .question {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+body .question h4 {
+  color: #273631;
+}
+
+body .question details {
+  margin-top: 0.5em;
+  padding: 10px;
+  font-style: italic;
+  color: white;
+  width: 20em;
+  background: #273631;
+  border-left: 10px solid #52ACFF;
+}
+
+body .question details summary {
+  font-style: normal;
+}
+
+body footer {
+  background: #273631;
+  margin-top: 1em;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+}
+
+body footer .logo {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+  width: 40%;
+  border-right: 4px solid white;
+}
+
+body footer .logo img {
+  width: 8em;
+}
+
+body footer .note {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding-top: 1em;
+  width: 40%;
+  color: white;
+}
+
+body footer .note p {
+  opacity: 80%;
+}
+
+body footer .note .contact {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 10em;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  list-style-type: none;
+}
+
+@media (max-width: 830px) {
+  body {
+    background: -webkit-gradient(linear, right top, left top, from(#52ACFF), color-stop(50%, #52ACFF), color-stop(95%, #FFE32C), color-stop(95%, #FFE32C));
+    background: linear-gradient(to left, #52ACFF, #52ACFF 50%, #FFE32C 95%, #FFE32C 95%);
+  }
+  #tagCrazy {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  #Story {
+    padding: 0 0 2em 2em;
+  }
+  #Story .text {
+    opacity: 30%;
+  }
+  .tableCrazy {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  .tableCrazy .detail {
+    text-align: center;
+  }
+  footer {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: reverse;
+        -ms-flex-direction: column-reverse;
+            flex-direction: column-reverse;
+    width: 100%;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  footer .logo {
+    opacity: 50%;
+  }
+  footer .note {
+    border-left: 4px solid white;
+    padding: 1em;
+  }
+}
+
+@media (max-width: 600px) {
+  header {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+}
+/*# sourceMappingURL=home.css.map */
